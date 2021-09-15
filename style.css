@@ -175,6 +175,7 @@ header a {
 	margin: auto;
 	padding: 5px;
 	background-color: #3882f6;
+	border-color: #3882f6;
 	color: #f9faf8;
 	border-radius: 5px;
 }
@@ -208,9 +209,10 @@ header a {
 	color: black;
 	font-size: 10px;
 }
+
 #quote {
 	display: flex;
-	height: 200px;
+	height: 300px;
 	justify-content: center;
 	align-items: center;
 	background-color: #e5e7eb;
@@ -220,4 +222,31 @@ header a {
 }
 #quote q {
 	width: 600px;
+}
+
+.call {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 300px;
+}
+.action {
+	display: flex;
+	background-color: #3882f6;
+	height: 100px;
+	width: 650px;
+	justify-content: space-evenly;
+	align-items: center;
+	border-radius: 7px;
+	color: #e5e7eb;
+}
+.action button {
+	width: 100px;
+	margin: auto;
+	padding: 5px;
+	background-color: #3882f6;
+	color: #f9faf8;
+	border-radius: 5px;
+	border-color: #f9faf8;
+	border-width: 2px;
 }
