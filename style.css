@@ -124,6 +124,8 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	background-color: #1f2937;
+	position: sticky;
+	top: 0;
 }
 header img {
 	margin-left: 20px;
@@ -152,10 +154,11 @@ header a {
 	padding-top: 50px;
 	padding-bottom: 150px;
 	background-color: #1f2937;
+	flex-wrap: wrap;
 }
 .second h1 {
 	font-size: 48px;
-	font-weight: extra-bold;
+	font-weight: bolder;
 	text-align: center;
 	color: #f9faf8;
 }
@@ -165,6 +168,7 @@ header a {
 	width: 500px;
 	color: #e5e7eb;
 	font-size: 18px;
+	flex-wrap: wrap;
 }
 .second button {
 	width: 100px;
@@ -181,13 +185,14 @@ header a {
 	text-align: center;
 	margin-bottom: 18px;
 	padding-top: 20px;
+	font-size: 36px;
+	font-weight: bolder;
+	color: #1f2937;
 }
 .Menu-items {
 	display: flex;
 	justify-content: center;
-
-	/* margin-left: 200px;
-	margin-right: 200px;*/
+	flex-wrap: wrap;
 }
 .Menu-items img {
 	border-style: solid;
@@ -195,4 +200,24 @@ header a {
 	border-width: 5px;
 	border-radius: 8px;
 	margin-right: 20px;
+}
+
+#Menu p {
+	width: 120px;
+	text-align: center;
+	color: black;
+	font-size: 10px;
+}
+#quote {
+	display: flex;
+	height: 200px;
+	justify-content: center;
+	align-items: center;
+	background-color: #e5e7eb;
+	font-size: 20px;
+	color: #1f2937;
+	font-style: italic;
+}
+#quote q {
+	width: 600px;
 }
